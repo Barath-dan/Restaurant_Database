@@ -16,7 +16,7 @@ Key procedures include:
 AddBooking: For inserting new reservations into the database.
 UpdateBooking: For modifying existing bookings.
 CancelBooking: For removing reservations from the system.
-Transactions: Ensure data integrity during booking operations, safeguarding against data inconsistencies.
+Transactions: Commit changes to the database.
 
 ### Virtual Tables: 
 Summarize and display customer orders for enhanced data visibility and analysis.
