@@ -6,6 +6,7 @@ The Little Lemon Database Project is designed to manage the operations of the Li
 ## Features
 ### Table Booking System: 
 A user-friendly interface for managing reservations, allowing users to:
+Check Bookings: Get Table booking Status
 Add Bookings: Reserve tables for customers.
 Update Bookings: Modify existing reservations as needed.
 Cancel Bookings: Efficiently handle cancellations.
@@ -13,6 +14,7 @@ Cancel Bookings: Efficiently handle cancellations.
 Efficiently handle complex queries and operations related to table bookings.
 Promote code reuse and performance optimization.
 Key procedures include:
+AddCustomers: Adding new Customers into the database.
 AddBooking: For inserting new reservations into the database.
 UpdateBooking: For modifying existing bookings.
 CancelBooking: For removing reservations from the system.
