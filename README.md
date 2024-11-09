@@ -1,4 +1,4 @@
-# Little Lemon Restaurant Database Project
+# Little Lemon Restaurant Database
 
 ## Overview
 The Little Lemon Database Project is designed to manage the operations of the Little Lemon restaurant, focusing on a robust table booking system. This project utilizes stored procedures, transactions, virtual tables for viewing customer orders, and data visualizations through Tableau, providing a comprehensive solution for restaurant management.
