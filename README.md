@@ -14,10 +14,12 @@ A user-friendly interface for managing reservations, allowing users to:
 Efficiently handle complex queries and operations related to table bookings.
 Promote code reuse and performance optimization.
 Key procedures include:
-- **AddCustomers**: Adding new Customers into the database.
-- **AddBooking**: For inserting new reservations into the database.
-- **UpdateBooking**: For modifying existing bookings.
-- **CancelBooking**: For removing reservations from the system.
+- **Add Customers**: Adding new Customers into the database.
+- **Add Booking**: For inserting new reservations into the database.
+- **Update Booking**: For modifying existing bookings.
+- **Cancel Booking**: For removing reservations from the system.
+- **Available Tables**: Shows Available Tables for selected date.
+- **Check Booking**: Chacks Booking status for given date and table number.
 - **Transactions**: Commit changes to the database.
 
 ### Virtual Tables: 
