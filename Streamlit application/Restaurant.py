@@ -50,7 +50,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 Admin_options=["View Menu","Staff Details","View Bookings","View Customer Data"]
-Customer_options = ["New Customer Registration", "Add Booking", "Check Available Tables","Update My Booking", "Cancel My Booking", "Admin Login"]
+Customer_options = ["New Customer Registration", "Add Booking", "Check Available Tables","Update My Booking", "Cancel My Booking"]
 choice = st.sidebar.radio("Menu", ["🏠Home Page","👤Customer Login","🔒Admin Login"])
 
 if choice == "🏠Home Page":
