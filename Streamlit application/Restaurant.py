@@ -5,11 +5,11 @@ import pandas as pd
 @st.cache_resource
 def init_connection():
     return pymysql.connect(
-        host=secrets['database']['host'],
-        user=secrets['database']['user'],
-        password=secrets['database']['password'],
-        database=secrets['database']['db_name'],
-        port = secrets['database']['port']
+        host=st.secrets['database']['host'],
+        user=st.secrets['database']['user'],
+        password=st.secrets['database']['password'],
+        database=st.secrets['database']['db_name'],
+        port = st.secrets['database']['port']
     )
  
 conn = init_connection()
